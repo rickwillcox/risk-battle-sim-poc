@@ -2,7 +2,7 @@
   "name": "risk-react",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://rickwillcox.github.io/react-gh-pages",
+  "homepage": "https://rickwillcox.github.io/risk-battle-sim-poc",
   "dependencies": {
     "@emotion/react": "^11.11.4",
     "@emotion/styled": "^11.11.0",
