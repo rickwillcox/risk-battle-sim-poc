@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/risk-battle-sim-poc/static/css/main.e6c13ad2.css",
+    "main.js": "/risk-battle-sim-poc/static/js/main.2b161513.js",
+    "static/js/453.446c48fe.chunk.js": "/risk-battle-sim-poc/static/js/453.446c48fe.chunk.js",
+    "index.html": "/risk-battle-sim-poc/index.html",
+    "main.e6c13ad2.css.map": "/risk-battle-sim-poc/static/css/main.e6c13ad2.css.map",
+    "main.2b161513.js.map": "/risk-battle-sim-poc/static/js/main.2b161513.js.map",
+    "453.446c48fe.chunk.js.map": "/risk-battle-sim-poc/static/js/453.446c48fe.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.2b161513.js"
+  ]
+}
