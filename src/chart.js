@@ -74,7 +74,7 @@ export const Chart = ({ attackers, defenders, data }) => {
         type: "category",
         title: {
           display: true,
-          text: "Attackers Left",
+          text: "Attacker minus defenders",
         },
       },
       y: {
@@ -94,18 +94,7 @@ export const Chart = ({ attackers, defenders, data }) => {
       },
       annotation: {
         annotations: {
-          // 25: {
-          //   type: "line",
-          //   xMin: percentiles["25"],
-          //   xMax: percentiles["25"],
-          //   borderColor: "rgb(255, 99, 132)",
-          //   borderWidth: 2,
-          //   label: {
-          //     enabled: true,
-          //     content: "25%",
-          //   },
-          // },
-          "25th Percentile": {
+          25: {
             type: "line",
             xMin: percentiles["25"],
             xMax: percentiles["25"],
@@ -114,12 +103,6 @@ export const Chart = ({ attackers, defenders, data }) => {
             label: {
               enabled: true,
               content: "25%",
-              position: "start",
-              color: "rgb(255, 99, 132)",
-              backgroundColor: "rgba(255,255,255,0.5)",
-              font: {
-                weight: "bold",
-              },
             },
           },
           50: {
